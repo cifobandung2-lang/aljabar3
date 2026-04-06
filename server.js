@@ -13,7 +13,7 @@ app.post("/hitung", (req, res) => {
     let soal = req.body.soal;
 
     try {
-        // Ubah ^ jadi pow agar kompatibel
+        // Ubah ^ jadi pow agar kompatibelllll
         soal = soal.replace(/\^/g, "**");
 
         let hasil = math.evaluate(soal);
